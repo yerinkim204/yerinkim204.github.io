@@ -6,15 +6,15 @@
 }
 
 body {
-    /* 가독성이 뛰어난 시스템 폰트 조합 */
+    
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.8;
-    color: #2d3436;
-    background-color: #f4f7f9; /* 아주 연한 청회색 배경 */
+    color: #2D3436;
+    background-color: #f4f7f9; 
 }
 
 a {
-    color: #0984e3;
+    color: #672091;
 }
 
 /* 2. 네비게이션 바 */
@@ -23,7 +23,7 @@ a {
     top: 0;
     width: 100%;
     background-color: rgba(255, 255, 255);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(103, 32, 145, 0.1);
     z-index: 1000;
     padding: 18px 0;
 }
@@ -101,7 +101,7 @@ main {
     content: "";
     width: 4px;
     height: 20px;
-    background-color: #3b82f6; /* 포인트 블루 */
+    background-color: #672091; 
     margin-right: 12px;
     border-radius: 2px;
 }
@@ -145,7 +145,7 @@ h3 {
 
 .project-item:hover {
     transform: translateY(-3px);
-    border-color: #3b82f6;
+    border-color: #672091;
     box-shadow: 0 5px 15px rgba(59, 130, 246, 0.05);
 }
 
@@ -163,7 +163,7 @@ h3 {
 .project-item a {
     font-size: 0.85rem;
     font-weight: 600;
-    color: #2563eb;
+    color: #672091;
 }
 
 /* 7. 스킬 칩 디자인 */
