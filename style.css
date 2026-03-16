@@ -47,7 +47,7 @@ a {
     color: #2d3436;
 }
 
-/* 3. 히어로 섹션 - 딥 네비게이션 그라데이션 */
+/* 3. 히어로 섹션 */
 .hero-section {
     height: 50vh;
     display: flex;
@@ -96,7 +96,7 @@ main {
     align-items: center;
 }
 
-/* 제목 옆에 작은 포인트 바 */
+/* 제목 옆에 포인트 바 */
 .content-section h2::before {
     content: "";
     width: 4px;
@@ -189,7 +189,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* 모바일 대응 */
+/* 모바일 */
 @media (max-width: 600px) {
     .content-section { padding: 30px 20px; }
     .hero-section h1 { font-size: 2rem; }
